@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <menuitem id="freelance.menu_root" name="Freelance" sequence="10"/>
+    
+    <menuitem id="freelance.menu_projects" 
+              name="Projects" 
+              parent="freelance.menu_root" 
+              action="action_freelance_project" 
+              sequence="10"/>
+              
+    <menuitem id="freelance.menu_lines" 
+              name="Hitus/Lines" 
+              parent="freelance.menu_root" 
+              sequence="20"/>
+              
+    <menuitem id="freelance.menu_time" 
+              name="Worked Hours" 
+              parent="freelance.menu_root" 
+              sequence="30"/>
+</odoo>

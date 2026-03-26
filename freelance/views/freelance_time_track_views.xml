@@ -1,0 +1,15 @@
+<odoo>
+    <data>
+    <record model="ir.ui.view" id="freelance.list">
+      <field name="name">freelance list</field>
+      <field name="model">freelance.project</field>
+      <field name="arch" type="xml">
+        <list>
+          <field name="name"/>
+          <field name="value"/>
+          <field name="value2"/>
+        </list>
+      </field>
+    </record>
+    </data>
+</odoo>
